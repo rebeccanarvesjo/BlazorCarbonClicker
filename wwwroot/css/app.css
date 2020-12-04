@@ -1,0 +1,120 @@
+@import url('open-iconic/font/css/open-iconic-bootstrap.min.css');
+
+html, body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #262437;
+}
+
+a, .btn-link {
+    color: #2C274E;
+}
+
+.button-group {
+    padding: 15px;
+}
+.button-group button {
+    margin: 5px;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #6F76A3;
+    border-color: #6F76A3;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #4c5171;
+    border-color: #4c5171;
+}
+
+.btn-primary:active {
+    background-color: #2C274E !important;
+    border-color: #2C274E;
+}
+
+.btn-primary:focus {
+    outline: 3px solid #865A82;
+}
+
+.btn-secondary:focus {
+    outline: 3px solid #865A82;
+}
+
+.centered {
+    margin: auto !important;
+}
+
+.content {
+    padding-top: 1.1rem;
+}
+
+.main-content {
+    max-width: 700px;
+    background-color: #F6F8F9;
+    margin: auto;
+    padding: 40px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.primary-color {
+    background-color: #886A78;
+}
+.secondary-color {
+    background-color: #F8F7F5;
+}
+
+.third-color {
+    background-color: #a597b1;
+}
+
+p {
+    padding: 20px;
+}
+
+.secondary-content {
+    max-width: 700px;
+    color: black;
+    margin-top: 40px;
+    margin: 30px auto;
+    padding: 40px;
+    text-align: center;
+}
+
+div.button {   
+    left: 42.5%;
+    top: 50%;
+    bottom: 100px;
+}
+
+.valid.modified:not([type=checkbox]) {
+    outline: 1px solid #26b050;
+}
+
+.invalid {
+    outline: 1px solid red;
+}
+
+.validation-message {
+    color: red;
+}
+
+#blazor-error-ui {
+    background: lightyellow;
+    bottom: 0;
+    box-shadow: 0 -1px 2px rgba(0, 0, 0, 0.2);
+    display: none;
+    left: 0;
+    padding: 0.6rem 1.25rem 0.7rem 1.25rem;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+    #blazor-error-ui .dismiss {
+        cursor: pointer;
+        position: absolute;
+        right: 0.75rem;
+        top: 0.5rem;
+    }
