@@ -6,7 +6,7 @@ body {
 
 .pyro {
     display: none;
-    margin-left: 0px;
+    margin-left: -800px;
 }
   
   .pyro > .before, .pyro > .after {
